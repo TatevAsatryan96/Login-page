@@ -1,0 +1,18 @@
+
+.form-inputs-btn{
+    font-family:sens-serif bold;
+    background-image:linear-gradient(to right bottom, rgb(201, 78, 180), rgb(211, 166, 203),rgb(163, 73, 167));
+    border:none;
+    position:absolute;
+    left:49%;
+    top: 60%;;
+    width: 100px;
+    padding:10px 15px;
+    font-size: 30px;
+    border-radius: 15px;
+  
+}
+.form-inputs-btn a:link{
+  text-decoration: none;  
+  color:rgb(255, 255, 255);
+}
