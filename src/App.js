@@ -1,33 +1,20 @@
 import React,{useState} from 'react';
 import './App.css';
-import Login from './components/Login';
+import Login from './containers/Login';
 import Button from './components/Button/Button';
-import Form from './components/Form';
+import Form from './containers/Form';
 
 
 function App() {
-  const[count,setCount]=useState(0);
-  const[text,setText]=useState('');
-
- const increaseCount=()=>{
-    setCount(count+1);
-    console.log(count);
-
- 
-}
-const onChange=(event)=>{
-   setText(event.target.value);
-   console.log(text);
- }
  
 
   return (
     <div className="App">
 
-      {count}
-      <Login  value={text} onChange={onChange} />
+     
+      <Login />
       <Form />
-     <Button onClick={increaseCount}> Login
+     <Button > Login
        </Button>
     </div>
   );
