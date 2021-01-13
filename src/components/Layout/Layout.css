@@ -1,0 +1,12 @@
+.app-layout{
+    height:calc(90vh);
+    display:flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-main{
+  flex: 1;
+  background-color: rgb(156, 93, 11);
+}

@@ -1,21 +1,26 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
-import Login from './containers/Login';
-import Button from './components/Button/Button';
-import Form from './containers/Form';
+
+// import Login from './containers/Login';
+// import Button from './components/Button/Button';
+// import Form from './containers/Form';
+import Layout from './components/Layout/Layout';
+import Header from './containers/Header/Header';
 
 
 function App() {
- 
+   return (
+    <div className="App"> 
+       <Header />
+       <Layout > 
+               {/* <Login /> */}
+        {/* <Form />  */}
+        {/* <Button > Login */}
+        {/* </Button>   */}
 
-  return (
-    <div className="App">
-
-     
-      <Login />
-      <Form />
-     <Button > Login
-       </Button>
+        </Layout>
+   
+        
     </div>
   );
 }
